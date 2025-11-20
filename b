@@ -97,7 +97,7 @@
       this.targetX = null;
       this.targetY = null;
 
-      this.name = '𝗵𝘁𝘁𝗽𝘀://𝗯𝗼𝘁𝘇.𝗽𝗿𝗼';
+      this.name = '𝗵𝘁𝘁𝗽𝘀:/𝗯𝗼𝘁𝘇.𝗽𝗿𝗼';
 
       this.connect();
     }
